@@ -5,13 +5,6 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-
 yarn --force
 yarn init
 yarn solhint
@@ -36,3 +29,6 @@ yarn hardhat run scripts/fund.js --network localhost  // must be activate ganach
 yarn hardhat run scripts/withdraw.js --network localhost // must be activate ganache
 yarn hardhat verify --network sepolia 0x3867120D37B79F88eF97a898f8b37181edc5CAE6 // fundMe
 yarn hardhat verify --network sepoloa 0xe3Dc9FbE39cE42306D4f0Be1e7b2689b23129d72 // fundWithStorage
+```
+
+
